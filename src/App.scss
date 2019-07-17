@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card{
+  width: 304px;
+  height: 586px;
+  box-shadow: 7px 7px 7px rgba(249, 152, 152, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(#ff4874 0%, #f78080 100%);
+  display: flex;
+  justify-content: center;
+  clip-path: circle(7% at 80% 15%);
+  transition: all 1s ease-in-out;
+  
+  &:hover {
+    clip-path: circle(100%);
+
+    .information {
+      color: #ff4874;
+      transition: all 0.7s ease-in-out;
+    }
+  }
+}
+
+.information {
+  position: absolute;
+  top: 60%;
+  left: 328%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.profiloTitle {
+  position: absolute;
+  top: 17%;
+  right: 53%;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.subTitle {
+  text-shadow: 0 4px 4px rgba(37, 255, 137, 0.28);
+  color: #bdf95b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.profiloContent {
+  width: 252px;
+  height: 347px;
+  box-shadow: 0 4px 4px rgba(156, 188, 250, 0.25);
+  border-radius: 29px;
+  background-color: #fecbcb;
+  position: absolute;
+  top: 32%;
+}
+
+.avatar {
+  width: 99px;
+  height: 110px;
+  border-radius: 180px;
+  background-image: url("./avatar.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 12%;
+  width: 214px;
+}
+
+.nameTitle {
+  font-family: 'Roboto', sans-serif;
+  color: #0893a6;
+  font-size:22px;
+  font-weight: 500;
+}
+
+.role {
+  font-family: 'Roboto', sans-serif;
+  color: #00375f;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.buttonContact{
+  width: 211px;
+  height: 35px;
+  box-shadow: 0 4px 4px rgba(107, 58, 246, 0.25);
+  border-radius: 14px;
+  background-color: #a881fd;
+  position: absolute;
+  top: 75%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttonContactText{
+  width: 134px;
+  height:30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+}
