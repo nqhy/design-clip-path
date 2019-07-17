@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       <div className="card">
         <div className="profiloTitle">
-            <span class="information">i</span>
+            <span class="information">X</span>
             <p className="title">
               My
             </p> 
